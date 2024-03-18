@@ -10,4 +10,9 @@ public class Program
         Console.WriteLine("Modification 2");
         Console.WriteLine("Modification 3");
     }
+
+    public static double CalculateAverage(int[] arr)
+    {
+        return arr.Average();
+    }
 }
