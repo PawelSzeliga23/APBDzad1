@@ -11,9 +11,9 @@ public class Program
         Console.WriteLine("Modification 3");
     }
 
-    public static double CalculateAverage(int[] array)
+    public static double CalculateAverage(int[] integers)
     {
-        return array.Average();
+        return integers.Average();
     }
 
     public static int GetMaxValue(int[] arr)
