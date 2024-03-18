@@ -15,4 +15,9 @@ public class Program
     {
         return arr.Average();
     }
+
+    public static int GetMaxValue(int[] arr)
+    {
+        return arr.Max();
+    }
 }
